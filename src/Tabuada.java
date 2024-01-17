@@ -22,7 +22,8 @@ class tabuada {
                     System.out.println(num + " + " + contador + " = " + resultado);
 
                 } else if (operacao.charAt(0) == '-') {
-                   resultado = num - contador;
+                    resultado = num - contador;
+                    resultado = Math.abs(resultado); //utilizado para deixar o resultado positivo
                     System.out.println((num+contador) + " - " + num + " = " +  (resultado-num));
 
                 } else if (operacao.charAt(0) == '*') {
