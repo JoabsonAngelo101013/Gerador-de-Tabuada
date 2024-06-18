@@ -28,7 +28,7 @@ class tabuada {
 
                 } else if (operacao.charAt(0) == '*') {
                     resultado = num * contador;
-                    System.out.println(num + " * " + contador + " = " + resultado);
+                    System.out.println(num + " * " +contador + " = " + resultado);
 
                 } else if (operacao.charAt(0) == '/') {
 
